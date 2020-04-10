@@ -1,0 +1,36 @@
+.BlogHello {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(48, 161, 48);
+}
+.BlogLogo {
+    text-align: center;  
+    margin: 211px 93px 41px 93px;
+}
+.logo {
+    width: 180px;
+    height: 180px;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+.BlogName {
+    color: ivory;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.eguzki {
+    width: 60px;
+    height: 60px;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}
+.welcome {
+    color: ivory;
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
