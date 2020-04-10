@@ -1,13 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+import OnboardingCard from './components/onboarding'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>This is my Blog</p>
-      </header>
-    </div>
+    <div>
+      <Router>
+        <Switch>
+          <Route path="/" component={OnboardingCard} />
+      </Switch>
+      </Router>
+  </div>
+
   );
 }
 
