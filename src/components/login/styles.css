@@ -1,0 +1,77 @@
+.logForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .logForm__images {
+    margin: 30px 0;
+  }
+  
+  .logForm__images__img {
+    height: 120px;
+    width: 120px;
+    padding: 0 3px;
+  }
+  
+  .logForm__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logForm__form__label {
+    width: 80%;
+    margin: 8px 0;
+  }
+  
+  .logForm__form__label input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(48, 161, 48);
+    margin: 8px 4px;
+    color: rgb(48, 161, 48);
+    font-size: 12px;
+  }
+  
+  .logForm__form__buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+  }
+  
+  .logForm__form__button {
+    border: 1px solid rgb(48, 161, 48);
+    margin: 48px 4px 4px 4px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 161, 48);
+    padding: 8px 48px;
+  }
+  
+  .logForm__form__button--switch {
+    border: 1px solid rgb(48, 161, 48);
+    margin: 4px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 161, 48);
+    padding: 16px 48px;
+  }
+  
+  .logForm__welcome {
+    color: rgb(48, 161, 48);
+    margin: 32px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .logForm__img {
+    margin: 0 0 48px 0;
+  }
+  
