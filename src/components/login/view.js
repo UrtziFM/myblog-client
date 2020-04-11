@@ -5,7 +5,7 @@ import { reader, login } from '../../api/auth';
 
 import './styles.css';
 
-function LogUsers({ history }) {
+function LoginCard({ history }) {
   const [cookies, setCookie] = useCookies(['token']);
   const { token } = cookies;
 
@@ -43,8 +43,7 @@ function LogUsers({ history }) {
         />
       </div>
       <h2 className="logForm__welcome">
-        ¡Hola! Si eres Urtzi, Inicia Sesión por favor
-      </h2>
+        ¿Crees en los Usuarios?</h2>
       <form className="logForm__form" onSubmit={handleSubmit}>
         <label className="logForm__form__label">
           <input
@@ -76,15 +75,15 @@ function LogUsers({ history }) {
             disabled={!formState.email || !formState.password}
             type="submit"
           >
-            {isLogin ? 'Iniciar sesión' : 'Lector sesion'}
+            {isLogin ? 'Soy un Lector' : 'Iniciar Sesión'}
           </button>
 
           <button
             className="logForm__form__button--switch"
             type="button"
-            onClick={() => setIsLogin(!isLogin)}
+            onClick={()=> history.push('/home')} 
           >
-            {isLogin ? 'Lector sesión' : 'Iniciar sesión'}
+            {isLogin ? 'Iniciar Sesión' : 'Soy un Lector'}
           </button>
         </div>
         {error ? (
@@ -95,5 +94,5 @@ function LogUsers({ history }) {
   );
 }
 
-export default LogUsers;
+export default LoginCard;
 

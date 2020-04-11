@@ -29,7 +29,7 @@ function OnboardingModal(props) {
                 {selected ? 
                 <div className="Modal_apply_options">
                 <div className="Modal_apply_clean" onClick={()=> history.push('/home')}>Acceso</div>
-                <div className="Modal_apply_accept"onClick={()=> history.push('/login')}>Acceso</div>
+                <div className="Modal_apply_accept" onClick={()=> history.push('/login')}>Acceso</div>
                 </div>
                 :
                 <div className="Modal_apply">¿Quien eres?</div>
