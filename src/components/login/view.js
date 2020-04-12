@@ -43,7 +43,8 @@ function LoginCard({ history }) {
         />
       </div>
       <h2 className="logForm__welcome">
-        ¿Crees en los Usuarios?</h2>
+        ¿Crees en los Usuarios?
+      </h2>
       <form className="logForm__form" onSubmit={handleSubmit}>
         <label className="logForm__form__label">
           <input
