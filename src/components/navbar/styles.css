@@ -12,6 +12,7 @@
     height: 40px;
     width: 40px;
     margin: 5px 10px 5px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
   }
   
