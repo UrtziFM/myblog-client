@@ -30,7 +30,11 @@ const Home = ()=>{
       </Link>
     </Router>
     <div className="line"></div>
-  <PostListCard />
+    <Router>
+      <Link to="/postlist">
+        <PostListCard />
+      </Link>
+    </Router>
   </div>
     )
 }

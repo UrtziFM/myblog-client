@@ -1,9 +1,18 @@
 .PostList-Title {
-    font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-weight: medium;
   font-size: 16px;
   color: rgb(48, 161, 48);
-  margin: 0px;
+  margin: 5px;
   text-align: center;
 
+}
+ol {
+  opacity: 0;
+}
+span.carousel-control-prev-icon{
+  background-color:rgb(48, 161, 48);
+}
+span.carousel-control-next-icon{
+  background-color: rgb(48, 161, 48);
 }
