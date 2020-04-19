@@ -1,23 +1,23 @@
 import React from 'react';
-
+import Card from 'react-bootstrap/Card'
 
 
 import Navbar from '../../components/navbar'
 
 import './styles.css';
 
-const LastPostBlog = ({title, description, picture, contentPost, category, date, views}) => {
+const LastPostBlog = ({title, picture, contentPost, category, date, views}) => {
 
     return (
         <div className="last-Blog">
         <Navbar/>
         <div className="last-Card-Blog">
-            <h3 className="last-Card-Title-Blog">Post: {title}</h3>
-            <p className="last-content-Blog">{description}</p>
-            <p className="last-type-Blog">{category}</p>
+            <Card.Img variant="top" src="assets/bloglogo.jpg" />
+            <h3 className="last-Card-Title-Blog">La Falacia del Desarrollo Sostenible {title}</h3>
+            <p className="last-type-Blog">Green Economy{category}</p>
             <div className="last-text-Blog">
                 <img className="last-img-Blog" src={picture}></img>
-                <p className="last-main-Blog">{contentPost}</p>
+                <p className="last-main-Blog">hhhhhhh{contentPost}</p>
             </div>
             <div className="last-footer-Blog">
             <p className="last-date-Blog">Día: {date}</p>
