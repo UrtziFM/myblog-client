@@ -6,9 +6,10 @@ import PostListCard from '../../components/postlist'
 import Navbar from '../../components/navbar'
 
 import './styles.css'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link, useHistory } from 'react-router-dom';
 
 const Home = ()=>{
+  const history = useHistory()
 
   return(
     
@@ -26,13 +27,13 @@ const Home = ()=>{
       </h2>
     <Router>
       <Link to="/lastpost">
-        <LastPostCard />
+        <LastPostCard onClick={()=> history.push('/lastpost')}/>
       </Link>
     </Router>
     <div className="line"></div>
     <Router>
       <Link to="/postlist">
-        <PostListCard />
+        <PostListCard onClick={()=> history.push('/postlist')}/>
       </Link>
     </Router>
   </div>

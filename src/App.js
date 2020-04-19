@@ -18,9 +18,8 @@ function App() {
           <Route exact path="/" component={OnboardingCard} />
           <Route exact path="/login" component={LoginCard} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/lastpost" component={LastPostBlog} />
-          
-      </Switch>
+          <Route exact path="/lastpost" component={LastPostBlog} />    
+       </Switch>
       </Router>
   </div>
 
