@@ -23,7 +23,7 @@ img {
 .last-Card-Title-Blog{
   width: 100%;
   background-color: white;
-  margin: 0px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   padding: 10px 0px 0px 0px;
   font-family: 'Barlow', sans-serif;
   font-weight: bold;
@@ -45,21 +45,32 @@ img {
   font-size: 0.9rem;
   font-style: italic;
 }
-.last-text-Blog {
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+.last-line{
+  width: 75%;
+  height: 1px;
+  opacity: 0.75;
+  background-color: rgb(48, 161, 48);
+  margin-top: 20px;
+  margin-left: 12%;
+  margin-right: 12%;
 }
-.last-img-Blog{
-  float: left;
-  width: 120px;
-} 
+.last-text-Blog {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
 .last-main-Blog {
   height: 300px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+  width: 90%;
+  color: darkgreen;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+
 }
 .last-footer-Blog {
   display: flex;
