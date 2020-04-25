@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import OnboardingCard from './components/onboarding'
 import LoginCard from './components/login'
 import LastPostBlog from './components/lastpostblog'
+import PostListBlog from './components/postlistblog'
 
 import Home from './containers/home/';
 
@@ -18,7 +19,8 @@ function App() {
           <Route exact path="/" component={OnboardingCard} />
           <Route exact path="/login" component={LoginCard} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/lastpost" component={LastPostBlog} />    
+          <Route exact path="/lastpost" component={LastPostBlog} />  
+          <Route exact path="/postlist" component={PostListBlog} />   
        </Switch>
       </Router>
   </div>
