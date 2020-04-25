@@ -15,7 +15,7 @@ function PostListCard() {
 
   return (
     <div>
-            <h3 className= "PostList-Title"> Aquí el resto de mis Posts</h3>
+            <h3 className= "PostList-Title"> Aquí una lista con mis mejores Posts</h3>
     <Carousel activeIndex={index} onSelect={handleSelect}>
     {PostList.map((PostList, i) => {
            return (
