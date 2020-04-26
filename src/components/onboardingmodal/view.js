@@ -22,9 +22,9 @@ function OnboardingModal(props) {
                 <div className="Modal1_Text">Acceso al Blog</div>
                 <div className="Modal_options">
                     <div className={selected==="option0" ? "option0_1" : 'option0'} onClick={() => setSelected("option0")}>
-                    <img src="assets/lector.jpeg" alt="point0"/><p>Lector</p></div>
+                    <img className= "image_modal" src="assets/lector.jpeg" alt="point0"/><p>Lector</p></div>
                     <div className={selected==="option1" ? "option1_1" : 'option1'} onClick={() => setSelected("option1")}>
-                    <img  src="assets/escritor.jpg" alt="point1"/><p>Urtzi</p></div>
+                    <img className= "image_modal" src="assets/escritor.jpg" alt="point1"/><p>Urtzi</p></div>
                 </div>
                 {selected ? 
                 <div className="Modal_apply_options">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 
+
 import home from '../../assets/icons/home.png';
 import last from '../../assets/icons/new.png';
 import list from '../../assets/icons/list.png';
@@ -9,6 +10,7 @@ import moreInfo from '../../assets/icons/info.png';
 import './styles.css';
 
 const Navbar = () => {
+
   return (
     <nav className="Navbar">
       <Router>
