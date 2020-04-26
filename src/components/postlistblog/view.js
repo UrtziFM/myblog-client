@@ -12,7 +12,7 @@ const scrollToTop = () => {
     scroll.scrollToTop();
 };
 
-const LastPostBlog = ({title, category, date}) => {
+const PostListBlog = ({title, category, date}) => {
 
     return (
         <div className="list-Blog">
@@ -38,4 +38,4 @@ const LastPostBlog = ({title, category, date}) => {
     )
 }
 
-export default LastPostBlog
+export default PostListBlog
