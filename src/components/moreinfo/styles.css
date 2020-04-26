@@ -12,10 +12,19 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-  margin: 0px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   padding: 0px; 
 }
-.card {
-  height: 85%;
-  margin: 1% 5% 0% 5%;
+.moreinfo-logo {
+  border: 2px solid rgb(48, 161, 48);
+}
+.moreinfo-photo {
+  width: 60%;
+  height: 240px;
+  margin: 30px 20% 30px 20%;
+  border: 2px solid rgb(48, 161, 48);
+  border-radius: 20px;
+}
+.page-footer.green.font-small.pt-4.mt-4 {
+  width: 100%;
 }

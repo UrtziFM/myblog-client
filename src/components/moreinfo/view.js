@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 import Navbar from '../../components/navbar'
 
@@ -10,18 +10,19 @@ const MoreInfoCard = () => {
         <div className="moreinfo-Blog">
         <Navbar/>
         <div className="moreinfo-Card-Blog">
-      <MDBCol >
-        <MDBCard >
-          <MDBCardImage className="img-fluid" src="assets/urtzi.jpg" waves />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</MDBCardText>
-            <MDBBtn href="https://www.urtziarana.com">Click</MDBBtn>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      </div>
-      </div>
+        <img className="moreinfo-photo" src="assets/urtzi.jpg" />
+        </div>
+        <div className="moreinfo-text">
+          <p className="moreinfo-text-detail">Hola bienvenido</p>
+        </div>
+        <MDBFooter color="green" className="font-small pt-4 mt-4">
+        <div className="footer-copyright text-center py-3">
+        <MDBContainer fluid>
+          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.urtziarana.com"> urtziarana.com </a>
+        </MDBContainer>
+       </div>
+        </MDBFooter>
+        </div>
     )
   }
   
