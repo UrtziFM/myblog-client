@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import './styles.css';
 
 function PostListCard() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
@@ -23,6 +23,7 @@ function PostListCard() {
           <LastPostCard
                 key={i}
                title={PostList.title}
+               category={PostList.category}
                description={PostList.description}
                date={PostList.date}
                views={PostList.views}

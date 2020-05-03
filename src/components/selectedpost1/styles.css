@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:600&display=swap');
 
 
-.last-Card{
+.selected1-Card{
   width: 370px;
   height: 200px;
   background-color: white;
@@ -11,7 +11,7 @@
   margin: 5px 1px 5px 1px;
   padding: 1px; 
 }
-.last-Card-Title{
+.selected1-Card-Title{
   width: 100%;
   background-color: white;
   border-top: 1px solid rgb(48, 161, 48);
@@ -24,7 +24,7 @@
   text-align: center;
   font-size: 1.1rem;
 }
-.last-category {
+.selected1-category {
   margin: 1px 0px 1px 0px;
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
@@ -34,7 +34,7 @@
   font-size: 0.8rem;
   font-style: italic;
 }
-.last-content {
+.selected1-content {
     background-color: white;
     border-top: 1px dotted rgb(48, 161, 48);
     height: 140px;
@@ -46,7 +46,7 @@
     color: rgb(48, 161, 48);
     font-size: 0.8rem;
 }
-.last-date {
+.selected1-date {
     background-color: rgb(48, 161, 48);
     margin: 0px;
     color: white;
@@ -58,7 +58,7 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.last-views {
+.selected1-views {
     background-color: white;
     margin: 0px;
     color: rgb(48, 161, 48);
@@ -70,7 +70,7 @@
     padding-right: 10px;
     font-weight: bold;
 }
-.last-footer {
+.selected1-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -80,5 +80,32 @@
   opacity: 0.8;
   padding: 5px;
 }
-
-  
+.selected1-scrollUp {
+  position: fixed;
+  z-index: 1000;
+  display: block;
+  border: 2px dotted rgb(48, 161, 48);
+  border-radius: 10px;
+  bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  opacity: 0.7;
+  right: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 65px;
+  padding: 5px;
+  scroll-behavior: smooth;
+  cursor: n-resize;
+}
+.selected1-last-line{
+  width: 75%;
+  height: 3px;
+  opacity: 0.75;
+  background-color: rgb(48, 161, 48);
+  margin-top: 20px;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-bottom: 3px;
+}
