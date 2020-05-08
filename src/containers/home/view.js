@@ -1,14 +1,16 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
-import LastPostCard from '../../components/lastpost'
+import LastPostHome from '../../components/lastposthome'
 import PostListCard from '../../components/postlist'
 
 import Navbar from '../../components/navbar'
 
 import './styles.css'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+
 
 const Home = ()=>{
+  const history = useHistory();
 
   return(
     
@@ -22,19 +24,15 @@ const Home = ()=>{
         />
       </div>
       <h2 className="home__welcome">
-        Shall we play a game?
+        Shall we play a game? Lee Mi Último Post
       </h2>
-    <Router>
-      <Link to="/lastpost">
-        <LastPostCard />
-      </Link>
-    </Router>
+      <div className="lastpostclick" onClick={()=> history.push('/lastpost')}>
+        <LastPostHome />
+      </div>
     <div className="line"></div>
-    <Router>
-      <Link to="/postlist">
+    <div className="postlistclick" onClick={()=> history.push('/postlist')}>
         <PostListCard />
-      </Link>
-    </Router>
+    </div>
   </div>
     )
 }

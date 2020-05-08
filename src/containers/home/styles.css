@@ -25,8 +25,15 @@
     height: 1px;
     opacity: 0.75;
     background-color: rgb(48, 161, 48);
+    margin-top: 15px;
     margin-left: 12%;
     margin-right: 12%;
+  }
+  .lastpostclick {
+    cursor: pointer;
+  }
+  .postlistclick {
+    cursor: pointer;
   }
   
   
