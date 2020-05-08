@@ -12,7 +12,9 @@ ol {
 }
 span.carousel-control-prev-icon{
   background-color:rgb(48, 161, 48);
+  opacity: 0;
 }
 span.carousel-control-next-icon{
   background-color: rgb(48, 161, 48);
+  opacity: 0;
 }

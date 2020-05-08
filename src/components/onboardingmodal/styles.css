@@ -129,6 +129,7 @@
     width: 106px;
     height: 35px; 
     margin-left: 40px;
+    cursor: pointer;
 }
   .Modal_apply_accept {
     border: 1px solid ivory;
@@ -145,6 +146,7 @@
     height: 35px; 
     margin-left: 16px;
     margin-right: 40px;
+    cursor: pointer;
 }
   p {
       text-align: center;

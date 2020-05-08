@@ -31,7 +31,7 @@ const PostListBlog = () => {
                     <MDBDropdownMenu color="danger" className="list-text">
                         <MDBDropdownItem className="list-item">{PostList[2].category}</MDBDropdownItem>
                         <MDBDropdownItem className="list-item">{PostList[2].date}</MDBDropdownItem>
-                        <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost0')}>>Leer</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost_1')}>>Leer</MDBDropdownItem>
                 </MDBDropdownMenu>
                 </MDBDropdown>
                 <MDBDropdown size="sm" className="list-main-Blog">
@@ -41,7 +41,7 @@ const PostListBlog = () => {
                     <MDBDropdownMenu color="danger" className="list-text">
                         <MDBDropdownItem className="list-item">{PostList[1].category}</MDBDropdownItem>
                         <MDBDropdownItem className="list-item">{PostList[1].date}</MDBDropdownItem>
-                        <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost1')}>>Leer</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost_2')}>>Leer</MDBDropdownItem>
                 </MDBDropdownMenu>
                 </MDBDropdown>
                 <MDBDropdown size="sm" className="list-main-Blog">

@@ -24,8 +24,8 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route exact path="/lastpost" component={LastPostBlog} />  
           <Route exact path="/postlist" component={PostListBlog} /> 
-          <Route exact path="/selectedpost0" component={SelectedPost} />
-          <Route exact path="/selectedpost1" component={SelectedPost1} />  
+          <Route exact path="/selectedpost_1" component={SelectedPost} />
+          <Route exact path="/selectedpost_2" component={SelectedPost1} />  
           <Route exact path="/info" component={MoreInfoCard} />  
        </Switch>
       </Router>

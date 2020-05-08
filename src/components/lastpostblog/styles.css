@@ -61,6 +61,7 @@ img {
   font-size: 0.9rem;
   font-style: italic;
   text-align: center;
+  white-space: pre-wrap;
 
 }
 .last-footer-Blog {
