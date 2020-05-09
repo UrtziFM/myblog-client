@@ -17,12 +17,11 @@ export const isLoggedIn = async token => {
  * @param {string} body.password
  */
 export const reader = async body => {
-  const res = await postRequest('/auth/register', body);
+  const res = await postRequest('/auth/login', body);
   const response = await res.json();
 
   if (!res.ok) {
     throw new Error(response);
-
   }
 
   return response.redirect('/home')
@@ -39,7 +38,8 @@ export const login = async body => {
   const response = await res.json();
 
   if (!res.ok) {
-    throw new Error(response);
+   throw new Error(response); 
+    
   }
 
   return response.redirect('/home')
