@@ -43,7 +43,8 @@ function LoginCard({ history }) {
         />
       </div>
       <h2 className="logForm__welcome">
-        ¿Crees en los Usuarios?</h2>
+        ¿Crees en los Usuarios?
+      </h2>
       <form className="logForm__form" onSubmit={handleSubmit}>
         <label className="logForm__form__label">
           <input
@@ -87,7 +88,7 @@ function LoginCard({ history }) {
           </button>
         </div>
         {error ? (
-          <p style={{ color: 'red', fontWeight: 'bold' }}>{error}</p>
+          <p style={{ color: 'green', fontWeight: 'bold' }}>{"No crees en los usuarios, sigue como Lector"}</p>
         ) : null}
       </form>
     </div>
