@@ -135,7 +135,7 @@ img {
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 100vh;
+      /*height: 100vh;*/
   }
   .last-Card-Blog{
     width: 100%;
