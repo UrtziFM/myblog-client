@@ -24,7 +24,7 @@ const Home = ()=>{
         />
       </div>
       <h2 className="home__welcome">
-        Shall we play a game? Lee Mi Último Post
+        Shall we play a game? Último Post
       </h2>
       <div className="lastpostclick" onClick={()=> history.push('/lastpost')}>
         <LastPostHome />
