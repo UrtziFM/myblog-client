@@ -47,11 +47,11 @@
     /*height: 100vh;*/
   }
   .home__images {
-    margin: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
   }
   .home__images__img {
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     padding: 0 3px;
     text-align: center;
   }
@@ -63,11 +63,11 @@
     font-weight: bold;
   }
   .line{
-    width: 25%;
+    width: 50%;
     height: 1px;
     opacity: 0.75;
     background-color: rgb(48, 161, 48);
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 12%;
     margin-right: 12%;
   }
