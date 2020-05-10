@@ -40,7 +40,7 @@
     .BlogHello {
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        /*height: 100vh;*/
         text-align: center;
         background-color: rgb(48, 161, 48);
     }

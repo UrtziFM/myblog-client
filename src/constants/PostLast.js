@@ -3,31 +3,36 @@ const PostLast = [{
     title: "Los Cambios que Vienen",
     category: "Green Economy",
     contentPost: "Hace 5 años aproximadamente el fundador de Microsoft, Bill Gates, daba una charla sobre la próxima epidemia " +
-    "que viene dentro de las afamadas y popularizadas sesiones del programa de “TedTalk”. En ella resumía de manera ágil y clara " +
-    "la importancia de anticiparnos a los cambios que vendrían... y por desgracia, a día hoy es evidente que aún teniendo razón, aún siendo " +
-    "un multimillonario y aún siendo un Gurú de la tecnología ... nadie le hizo mucho caso. \n"+" \n"+"Empiezo este artículo hablando de las pandemias que vienen, " +
+    "que vendría, dentro de las afamadas y popularizadas sesiones del programa de “TedTalk”. En ella resumía de manera ágil y clara " +
+    "la importancia de anticiparnos a los cambios que estaban por venir... y por desgracia, esos cambios llegaron, y a día hoy es evidente que aunque Bill tenía razón, aunque era " +
+    "un multimillonario y aunque lo consideraban un Gurú de la tecnología ... nadie le hizo mucho caso. \n"+" \n"+"Empiezo este artículo hablando de las pandemias que vienen, " +
     "porque al igual que con el cambio climático, son los próximos riesgos sistémicos (término que los que trabajamos en banca conocemos muy bien) " +
     "a los que nos vamos a tener que enfrentar constantemente en el planeta en los próximos años sino décadas. \n"+" \n"+" Y si la medicina para el riesgo sistémico " +
-    "relacionado con las entidades financieras fue la anticipación a través de más provisiones y controles, con el cambio climático o la pandemias " +
+    "relacionado con las entidades financieras fue la anticipación a través de más provisiones y controles, con el cambio climático o las pandemias " +
     "debe ocurrir lo mismo. \n"+" \n"+" Los Organismos Internacionales y Nacionales deben establecer un marco de trabajo consensuado como sucedió con los Bancos, " +
-    "donde el Banco Central Europeo primero analizado con pruebas de stress la situación real de estos, luego reforzó los controles y finalmente " +
-    "impuso un requisitos de capital (CET1).  \n"+" \n"+" Todo Econo sabe y promueve la importancia de las métricas, y es " +
+    "donde si recordaís aquí en Europa, el Banco Central Europeo primero analizó con pruebas de stress la situación real de todos los bancos de la Eurozona, luego reforzó los controles sobre estos y finalmente " +
+    "les impuso un requisitos de capital (CET1) que debían como mínimo garantizar en un tiempo limitado.  \n"+" \n"+" Todo Econo sabe y promueve la importancia de las métricas y la racionalidad, y es " +
     "que teniendo en cuenta que los recursos naturales del planeta son limitados, se hace imprescindible conocer de qué recursos se disponen, que " +
-    "consumo estamos haciendo de ellos y cómo podemos mantener un crecimiento sostenible de estos sin dejar de ser solventes. \n"+" \n"+"" +
-    "Básicamente lo que las entidades financieras y sus organismos controladores deben garantizar  a los ciudadanos, es un sistema realmente sostenible " +
-    "en el tiempo. \n"+" \n"+" Al igual que los modelos de evaluación de edificios y ciudades están basados en unos objetivos y tienen sus correspondientes " +
-    "drivers, sucede lo mismo con el sistema financiero, las certificaciones están al orden día al igual que los objetivos en las variables más " + 
-    "importantes que otorgan esa “certificación” de solvencia. \n"+" \n"+" Y por supuesto no hay mejor demostración de las eficiencias y beneficios que puede " +
-    "generar una economía circular bien engrasada que la generan los propios sistemas financieros, o al menos esos nos dice la teoría...  \n"+" \n"+"" +
-    "Al igual que con las pandemias, los modelos productivos actuales tienen una dependencia directa sobre hábitos adquiridos, costumbres " +
+    "consumo estamos haciendo de ellos y cómo podemos mantener un crecimiento sostenible de estos sin dejar de ser solventes en el tiempo. \n"+" \n"+"" +
+    "Básicamente lo que las entidades financieras y sus organismos controladores deben garantizar a los ciudadanos, es un sistema que promueva proactivamente la confianza en el propio sistema, " +
+    "ejerciendo de actores principales de un ecosistema seguro y sostenible en el tiempo. \n"+" \n"+" Y es que al igual que los modelos de evaluación de edificios y ciudades están basados en unos objetivos y tienen sus correspondientes " +
+    "drivers para otorgar y garantizar la calidad, el sistema financiero, el sistema sanitario, el sistema económico e incluso el sistema social deben cumplir con unos objetivos mínimos para que " + 
+    "la sociedad tenga la garantía suficiente de que puede confiar. \n"+" \n"+" Un sistema económico como la economia circular bien engrasada otorga eficiencias y beneficios que puede " +
+    "generar un cambio sustancial en como afrontamos los riesgos a los que nos vamos a enfrentar en el futuro...  \n"+" \n"+"" +
+    "Al igual que estamos haciendo con la gestión de la pandemia actual del Covid-19, los modelos productivos actuales tienen una dependencia directa sobre hábitos adquiridos, costumbres " +
     "ineficientes que parten de un análisis lineal, no de un análisis y diseño integral que se anticipe a los diferentes acontecimientos, " +
-    "situaciones y procedimientos. \n"+" \n"+" Precisamente las teorías económicas que avalan nuestros sistemas tanto económico, " +
-    "social, medioambiental y político han quedado totalmente obsoletas porque al no tener en cuenta que los recursos son finitos no estamos " +
-    "minimizando la gestión de los residuos o ineficiencias sino que siempre han buscado cómo maximizar los beneficios aunque ello " +
-    "requiera más consumo de capital (de nuevo la similitud con la banca). \n"+" \n"+" Para terminar, y volviendo a los hábitos, no es posible cambiar " +
-    "un sistema sin que se tomen medidas en origen, y ese tanto en el mundo económico como medioambiental está en el consumo que hacemos " +
-    "de nuestros bienes, si solo queremos maximizar la posesión de ellos no habrá fin, mientras que si hacemos prevalecer la responsabilidad " +
-    "de consumir solo aquello que sea necesario siendo más eficientes, quizás exista un futuro para este planeta. ",
+    "situaciones y procedimientos. No quiero ser el típico Capitan a Posteriori, pero si hace 5 años los gobiernos del mundo hubieran hecho un mínimo de caso a Bill Gates, " +
+    "hubieran invertido parte de su capital en aprovisionar recursos para preparase contra una pandemia, hoy los centros médicos tendrían camas, personal y respiradores. " +
+    "Hoy los centros de investigación tendrían recursos económicos y personal con talento. Hoy las empresas y pequeños negocios estarían más digitalizadas. " +
+    "Hoy en definitiva, tendríamos un plan que habría sido diseñado integralmente donde todos y cada uno de los actores implicados sabrían que hacer. " +
+    " \n"+" \n"+" Precisamente las teorías económicas que avalan nuestros sistemas económico, " +
+    "social, medioambiental y político han quedado totalmente obsoletas para afrontar crisis sistémicas como las actuales, y es que al no tener en cuenta que los recursos son finitos, principio básico sobre "+
+    " el que empieza a existir un consenso y por el que la sostenibilidad cobra especial relevancia, las acciones gubernamentales, empresariales y personales siguen siendo lineales donde solo se tienen en cuenta "+
+    "el hoy y el ahora, lo cual hace que la curva de la maximización de beneficios sigue creciendo por encima de la curva de lo que el sistema puede soportar, consuminedo más capital del que disponemos y del que vamos a " +
+    "necesitar en próximas crisis (de nuevo la similitud con la banca). \n"+" \n"+" Para terminar, y volviendo a los hábitos, no es posible cambiar " +
+    "un sistema sin que se tomen medidas en origen, y eso depende tanto que lo hagamos en el mundo económico como en el medioambiental, ya que del consumo que hacemos " +
+    "de nuestros bienes dependerá nuestro futuro , si solo queremos maximizar la posesión de ellos no habrá fin, mientras que si hacemos prevalecer la responsabilidad " +
+    "de consumir solo aquello que sea necesario, sin renunciar a caprichos pero asumiendo contramedidas para ellos,  siendo más eficientes, quizás exista un mañana para este planeta. ",
     date: "03-05-20",
     views: "1"
 },
