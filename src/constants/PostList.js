@@ -1,4 +1,12 @@
-const PostList = [{
+const PostList = [
+  {
+      title: "Buscando la Diversidad Ecónomica",
+      category: "Green Economy",
+      description: "¿Sabeís cuales son las diferencias entre una plantación de pinos y un bosque de pinos? En el primero una empresa realiza la reforestación de manera homogenea y con tan alta densidad que practicamente no hay diversidad tanto de fauna y flora, en cambio en un bosque prevalece la biodiversidad y la reforestación se ha llevado a cabo de una manera más gradual.",
+      date: "06-06-20",
+      views: "1"
+  },
+ {
     title: "Los Cambios que Vienen",
     category: "Green Economy",
     description: "Hace 5 años aproximadamente el fundador de Microsoft, Bill Gates, daba una charla sobre la próxima epidemia que viene dentro de las afamadas y popularizadas sesiones del programa de “TedTalk”. En ella resumía de manera ágil y clara la importancia de anticiparnos a los cambios que vendrían...",

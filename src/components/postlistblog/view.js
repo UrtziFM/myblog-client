@@ -26,21 +26,21 @@ const PostListBlog = () => {
             <h3 className="list-Card-Title-Blog">Aqui tienes la lista completa de mis Post</h3>
                 <MDBDropdown size="sm" className="list-main-Blog">
                     <MDBDropdownToggle caret color="danger" className="list-title">
-                        {PostList[2].title}
+                        {PostList[3].title}
                     </MDBDropdownToggle>
                     <MDBDropdownMenu color="danger" className="list-text">
-                        <MDBDropdownItem className="list-item">{PostList[2].category}</MDBDropdownItem>
-                        <MDBDropdownItem className="list-item">{PostList[2].date}</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item">{PostList[3].category}</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item">{PostList[3].date}</MDBDropdownItem>
                         <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost_1')}>>Leer</MDBDropdownItem>
                 </MDBDropdownMenu>
                 </MDBDropdown>
                 <MDBDropdown size="sm" className="list-main-Blog">
                     <MDBDropdownToggle caret color="danger" className="list-title">
-                        {PostList[1].title}
+                        {PostList[2].title}
                     </MDBDropdownToggle>
                     <MDBDropdownMenu color="danger" className="list-text">
-                        <MDBDropdownItem className="list-item">{PostList[1].category}</MDBDropdownItem>
-                        <MDBDropdownItem className="list-item">{PostList[1].date}</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item">{PostList[2].category}</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item">{PostList[2].date}</MDBDropdownItem>
                         <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost_2')}>>Leer</MDBDropdownItem>
                 </MDBDropdownMenu>
                 </MDBDropdown>

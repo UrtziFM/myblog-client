@@ -1,4 +1,13 @@
-const PostLast = [{
+const PostLast = [
+    {
+     picture:"assets/bosque.jpg",
+     title: "Buscando la Diversidad Ecónomica",
+     category: "Green Economy",
+     contentPost: "¿Sabeís cuales son las diferencias entre una plantación de pinos y un bosque de pinos?  ",
+     date: "03-05-20",
+     views: "1"
+    },
+    {
     picture: "assets/bosque.jpg" ,
     title: "Los Cambios que Vienen",
     category: "Green Economy",
