@@ -46,6 +46,16 @@ const PostListBlog = () => {
                 </MDBDropdown>
                 <MDBDropdown size="sm" className="list-main-Blog">
                     <MDBDropdownToggle caret color="danger" className="list-title">
+                        {PostList[1].title}
+                    </MDBDropdownToggle>
+                    <MDBDropdownMenu color="danger" className="list-text">
+                        <MDBDropdownItem className="list-item">{PostList[1].category}</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item">{PostList[1].date}</MDBDropdownItem>
+                        <MDBDropdownItem className="list-item" onClick={()=> history.push('/selectedpost_3')}>>Leer</MDBDropdownItem>
+                </MDBDropdownMenu>
+                </MDBDropdown>
+                <MDBDropdown size="sm" className="list-main-Blog">
+                    <MDBDropdownToggle caret color="danger" className="list-title">
                         {PostList[0].title}
                     </MDBDropdownToggle>
                     <MDBDropdownMenu color="danger" className="list-text">
