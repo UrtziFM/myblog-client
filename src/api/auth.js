@@ -24,7 +24,8 @@ export const reader = async body => {
     throw new Error(response);
   }
 
-  return response.redirect('/home')
+  //return response.redirect('/home')
+  return response
 };
 
 /**
@@ -42,5 +43,5 @@ export const login = async body => {
     
   }
 
-  return response.redirect('/home')
+  return response
 };
