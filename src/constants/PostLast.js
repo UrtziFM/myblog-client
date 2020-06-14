@@ -1,11 +1,30 @@
 const PostLast = [
     {
      picture:"assets/bosque.jpg",
-     title: "Buscando la Diversidad Ecónomica",
+     title: "La Importancia de la Diversidad Ecónomica",
      category: "Green Economy",
-     contentPost: "¿Sabeís cuales son las diferencias entre una plantación de pinos y un bosque de pinos?  ",
-     date: "03-05-20",
-     views: "1"
+     contentPost: "En los últimos años el concepto de Biodiversidad ha cogido especial relevancia en nuestro argumentario pro acciones verdes y sostenibles, de echo no hay discusión periodística o familiar donde " +
+     "no se reflexione sobre el impacto medioambiental que está conllevando la pérdida de muchas especies de fauna y flora a lo largo del planeta. \n"+"\n" + "Pero sabemos realmente cual es la diferencia entre" +
+     "una plantación de pinos llevada a cabo por una empresa comercial para la reforestación de un espacio natural sobre un bosque de pinos cuya reforestación ha impulsado un gobierno local? \n"+"\n" +
+     "Aunque lo voy a simplificar en exceso, vais a entender perfectamente la diferencia, en el primer caso, la plantación es tan homogénea y masiva, que prácticamente no hay biodiversidad en el entorno de estas " +
+     "plantaciones por la toxicidad propia de la caída de las acículas que acidifican la tierra , e incluso los árboles sufren una poda natural en sus ramas inferiores al no recibir suficiente luz. \n"+"\n" +
+     "En cambio, en un bosque de pinos, la reforestación tiende a ser controlada, analizada y gradual, por lo que en la transición ecológica del espacio natural prevalece la proliferación de diferentes y diversas especies. \n"+"\n" +
+     "Alguno se estará preguntando porqué empecé el artículo hablando de diversidad económica mientras os contaba las bondades de los bosques de pinos versus las plantaciones de pinos… porque en el papel " +
+     "que debemos jugar los bancos en la transición a la economía verde debemos actuar más como creadores e impulsores de ecosistemas que potencien más los bosques y menos las plantaciones, está claro :) \n"+"\n" +
+     "En el ADN de un banco está la diversificación de los riesgos, dicho vulgarmente, nunca ponemos los huevos en la misma cesta. Y la economía actual, basada en las energías procedentes del carbón y el petróleo, " +
+     "es una cesta vieja e inestable. \n"+"\n" +
+     "De echo, esta cesta empieza a no pasar los controles gubernamentales y sociales de tal manera que no solo corremos el riesgo de perjudicar nuestra imagen de marca invirtiendo y financiando " +
+     "grandes empresas vinculadas a estas energías o que son altamente contaminantes, sino que nuestra cuenta de resultados empieza a sufrir por la parte baja con las provisiones que debemos empezar " +
+     "hacer por la desinversión en activos no rentables o por gastos extraordinarios que puedan surgir de nuevas regulaciones vinculadas a impuestos por contaminación o de impacto medioambiental. \n"+"\n" +
+     "Y la realidad es que cada vez, estos activos no rentables van a ser más numerosos si la apuesta por una transición a una economía más verde se consolida política y fiscalmente. \n"+"\n" +
+     "Por desgracia, los bancos somos como transatlánticos en cualquiera de nuestras facetas, no hemos sido ágiles para la integración de nuevas tecnologías, nuevos comportamientos sociales, nuevos " +
+     "modelos de negocio, nuevas formas de trabajar… y esta rigidez o falta de agilidad podemos extenderlo a nuestras inversiones. \n"+"\n" +
+     "Aunque eso está cambiando, la transformación digital ha sido un bendición no solo para asegurar la supervivencia de nuestro papel en la sociedad, sino que nos ha dado los mimbres necesarios para " +
+     "afrontar otra nueva transición desde el punto de liderazgo y ejecución. \n"+"\n" +
+     "Nadie mejor que nosotros conoce la realidad de nuestras empresas y las demandas de nuestros clientes particulares, nadie mejor que nosotros para hacer de puente hacía la nueva economía, porque nadie " +
+     "mejor que nosotros conoce de la importancia de la diversidad económica. ",
+     date: "14-06-20",
+     views: "6"
     },
     {
     picture: "assets/bosque.jpg" ,
