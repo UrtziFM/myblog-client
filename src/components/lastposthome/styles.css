@@ -4,7 +4,7 @@
 
 .lasthome-Card{
   width: 98%;
-  height: 35vh;
+  height: 30vh;
   background-color: lightgrey;
   border-radius: 4px;
   display: flex;
@@ -22,49 +22,48 @@
   display: block;
   color: black;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .lasthome-category {
   margin: 1px 0px 1px 0px;
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
   display: block;
-  color: rgb(48, 161, 48);
+  color: green;
   text-align: center;
   font-size: 1.1rem;
   font-style: italic;
 }
 .lasthome-content {
     background-color: white;
-    border-top: 1px dotted rgb(48, 161, 48);
-    height: 140px;
-    margin: 10px 0px 20px 0px;
+    border-top: 1px dotted green;
+    height: 25vh;
+    margin: 10px 0px 0px 0px;
     text-align: center;
-    padding-top: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
-    color: rgb(48, 161, 48);
+    padding: 5% 5% 5% 5%;
+    color: black;
     font-size: 1.0rem;
+    font-weight: 400;
 }
 .lasthome-date {
-    background-color: rgb(48, 161, 48);
+    background-color: lightgrey;
     margin: 0px;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 0.7rem;
     font-weight: 900;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 .lasthome-views {
-    background-color: white;
+    background-color: lightgrey;
     margin: 0px;
-    color: rgb(48, 161, 48);
+    color: black;
     text-align: center;
     font-size: 0.7rem;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -76,7 +75,7 @@
   justify-content: space-evenly;
   align-items: flex-end;
   width: 100%;
-  background-color: rgb(48, 161, 48);
+  background-color: green;
   opacity: 0.8;
   padding: 5px;
 }
@@ -91,8 +90,8 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  margin: 15px 1px 5px 1px;
-  padding: 1px; 
+  margin: 20px 1px 5px 1px;
+  padding: 0px; 
 }
 .lasthome-Card-Title{
   width: 100%;
@@ -119,12 +118,10 @@
 .lasthome-content {
     background-color: white;
     border-top: 1px dotted black;
-    height: 140px;
+    height: 25vh;
     margin: 2px 0px 2px 0px;
     text-align: center;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 10% 5px 5% 5px;
     color: black;
     font-size: 0.8rem;
     font-weight: 400;
