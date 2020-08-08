@@ -9,6 +9,8 @@ import MoreInfoCard from './components/moreinfo'
 import SelectedPost from './components/selectedpost'
 import SelectedPost1 from './components/selectedpost1'
 import SelectedPost2 from './components/selectedpost2'
+import SelectedPost3 from './components/selectedpost3'
+
 
 import Home from './containers/home/';
 
@@ -28,6 +30,7 @@ function App() {
           <Route exact path="/selectedpost_1" component={SelectedPost} />
           <Route exact path="/selectedpost_2" component={SelectedPost1} />  
           <Route exact path="/selectedpost_3" component={SelectedPost2} />
+          <Route exact path="/selectedpost_4" component={SelectedPost3} />
           <Route exact path="/info" component={MoreInfoCard} />  
        </Switch>
       </Router>

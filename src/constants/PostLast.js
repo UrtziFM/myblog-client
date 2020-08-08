@@ -1,5 +1,45 @@
 const PostLast = [
     {
+        picture:"assets/bosques2.jpg",
+        title: "Equilibrar el Futuro entre tod@s",
+        category: "Green Economy",
+        contentPost: "Recientemente en una noticia acontecida en un desayuno organizado por Deusto Business School el pasado mes de Octubre del 2019 y que por lo tanto era previo a la pandemia mundial del Covid-19: \n"+"\n" + 
+        "“El futuro de la banca es financiar el Futuro”. Con esta frase ha resumido Carlos Torres Vila su intervención en un desayuno organizado por Deusto Business School en Madrid, dentro del ciclo ‘Las finanzas y sus desafíos’."+
+        "La sostenibilidad social y medioambiental y la batalla por los datos son los principales retos que, para el presidente de BBVA, afronta el sector financiero a medio y largo plazo. “Hay desafíos que traen oportunidades."+
+         "La tecnología nos brinda un futuro muy brillante y hemos de capturarlas”, ha destacado. \n"+"\n" +
+        "Si tomamos las palabras financiar, tecnología, datos, sostenibilidad social, sostenibilidad medioambiental, oportunidades y retos que destacaba en aquel desayuno el presidente del BBVA puede parecer" +
+        "que inicialmente el resultado debería de ser tanto integral como positivo en cualquier caso… pero lamentablemente no todo resulta tan sencillo como realizar el cocktail de palabras que he escogido y" +
+         "mezclarlas con mis mejores intenciones. \n"+"\n" +
+        "Tomemos la brecha digital como ejemplo, cada vez más amplia entre el mundo rural y el urbano, ya que mientras en muchos núcleos urbanos ya están pensando en cómo aprovechar la potencia de la nueva red 5G" +
+         "para avanzar en el internet de las cosas y llegar a aspirar a tener incluso coches totalmente autónomos (y eléctricos) gracias a ello, en ciertos núcleos rurales como la “España Vaciada” ni siquiera pueden" +
+        "tener una conexión digna a internet que les permita avanzar en la tan manida transformación digital. \n"+"\n" +
+        "Por suerte, las oportunidades las creamos entre tod@s, y estos días el presidente de Telefónica ponía en valor en su Pacto Digital: “el compromiso de cumplir con un deber, la determinación de servir de ayuda" +
+         "a la completa digitalización de España. En 2025, la compañía habrá cubierto de fibra óptica el 100% de España y ejercerá el liderazgo internacional en implantación de la tecnología 5G. " +
+         "Es nuestro compromiso, nuestra forma de servir a la sociedad.” \n"+"\n" +
+        "La realidad es que si no hay una inversión previa y conjunta en infraestructuras por parte de los organismos públicos y privados, el 30% de la población del país podría acabar estando excluido del sistema financiero."+
+        "Y si a esto añadimos que actualmente el 6% de la población en España no tiene una cuenta corriente y que se extrapola a casi el 10% si incluimos su círculo familiar directo, estaríamos hablando" + 
+        "de que casi el 40% de la población estaría en riesgo de exclusión financiera… lo que nos convierte en un potencial país tercermundista aunque el término de principio suene injusto y de claro mal gusto. \n"+"\n" +
+        "Y eso en sí ya es una amenaza para el sector financiero europeo, tanto tradicional como de nuevo cuño, ya que si un nuevo competidor extranjero puede crear una red de conexión a internet con un simple" +
+        "globo aerostático en mitad de la nada africana y facilitar servicios financieros que habilitan los pagos y cobros P2P , P2B y/o B2B …porque no lo podría hacer en una zona más desarrollada como nuestro mundo rural? \n"+"\n" +
+        "La sostenibilidad medioambiental tiende a apalancarse en desarrollos tecnológicos que tienden a consumir de manera más eficiente la energía, hablamos de paneles solares, de baterías, de coches inteligentes," +
+        "de automatización. \n"+"\n" +
+        "Pero para obtener esta eficiencia siempre presuponemos que vamos a poder almacenar datos para después gestionarlos , que los algoritmos aprovecharán esa información para generar funciones automáticas" +
+        "y en real time , y que simplemente podremos cerrar y abrir el riego para la siembra desde nuestra propia casa. \n"+"\n" +
+        "Cuan sostenibles podremos llegar a ser en el mundo rural sin las estructuras y financiación necesarias para ello? \n"+"\n" +
+        "La financiación verde en la situación actual no va a llegar al mundo rural si las condiciones no se adaptan a su realidad, es fácil pedirle a Volkswagen cumplir unos requisitos para abaratarle" +
+        "las condiciones económicas de sus préstamos, nada más tienen que ajustarse a la demanda natural que está surgiendo de sus consumidores y por otro lado ajustar a los proveedores… pero cómo pedirle" +
+        "a un agricultor que compre un nuevo tractor eléctrico si no tiene palancas e incentivos para ello? \n"+"\n" +
+        "Y estos desequilibrios no sólo conciernen al mundo rural actualmente, debido a las crisis derivada de la pandemia los núcleos urbanos menos favorecidos donde los pequeños y medianos" +
+        "negocios solían ser parte imprescindible, pueden acabar dar un paso atrás de 100 años si no hacemos nada para ayudarles. \n"+"\n" +
+        "Y no vale solo con hablar de transformación digital como solución, necesitan herramientas e infraestructuras, pero también educación y formación, como apoyo gubernamental y privado. " +
+        "La brecha digital para ellos, es la que genera un sistema tecnológico cada vez más concentrado en las grandes tecnológicas extranjeras con concentración de mercado y ajuste de precios, " +
+        "y el reducto galo de los pequeños negocios con pocas alternativas para competir. \n"+"\n" +
+        "Ciertamente , y seamos realmente conscientes de ello, el equilibrio que necesita nuestro futuro siempre pasa por que la acción de unos ayude a acceder a nuevas y mejores oportunidades" +
+        "a otros que de por si no pueden.",
+        date: "30-07-20",
+        views: "7"
+       },
+    {
      picture:"assets/bosque.jpg",
      title: "La Importancia de la Diversidad Ecónomica",
      category: "Green Economy",
@@ -24,7 +64,7 @@ const PostLast = [
      "Nadie mejor que nosotros conoce la realidad de nuestras empresas y las demandas de nuestros clientes particulares, nadie mejor que nosotros para hacer de puente hacía la nueva economía, porque nadie " +
      "mejor que nosotros conoce de la importancia de la diversidad económica. ",
      date: "14-06-20",
-     views: "6"
+     views: "7"
     },
     {
     picture: "assets/bosquenevado2.jpg" ,
@@ -96,7 +136,7 @@ const PostLast = [
             "En este punto siempre me acuerdo de unas fotos de un canal en una ciudad de Holanda en diferentes épocas. En la primera, allá por los años 50, el canal está virgen solo rodeado por algunas casas. En la segunda, el canal había sufrido cambios y tenía dos carreteras a ambos lados. En la tercera, la carretera había cubierto el canal. Mientras en la última, la más reciente, se había vuelto prácticamente a la situación original pero con carriles bici y amplios paseos. \n"+" \n"+""+
             "Moraleja: Por mucho que la transformación es contante y normalmente a demanda de la sociedad, siempre podemos ajustar nuestros hábitos para aprovechar las cosas que realmente funcionan y eliminar aquellas que no lo son. ",
     date: "29-02-20",
-    views: "13"
+    views: "16"
 },
 {
     picture: "assets/bosque1.jpg",
