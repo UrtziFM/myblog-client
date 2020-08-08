@@ -1,11 +1,19 @@
 const PostList = [
-  {
+    {
+        title: "Equilibrar el Futuro entre tod@s",
+        category: "Green Economy",
+        description: "Nos enfretamos a un futuro donde si no hay una inversión previa y conjunta en infraestructuras por parte de los organismos públicos y privados, el 30% de la población del país podría" + 
+        "acabar estando excluido del sistema financiero.",
+        date: "30-07-20",
+        views: "7"
+    },
+    {
       title: "La Importancia de la Diversidad Ecónomica",
       category: "Green Economy",
-      description: "¿Sabeís cuales son las diferencias entre una plantación de pinos y un bosque de pinos? En el primero una empresa realiza la reforestación de manera homogenea y con tan alta " + 
-      "densidad que practicamente no hay diversidad tanto de fauna y flora, en cambio en un bosque prevalece la biodiversidad y la reforestación se ha llevado a cabo de una manera más gradual.",
+      description: "¿Cual es la diferencias entre una plantación de pinos y un bosque de pinos? En el primero una empresa realiza la reforestación de manera homogenea y con tan alta " + 
+      "densidad que practicamente no hay diversidad, en cambio en un bosque prevalece la biodiversidad y la reforestación es más gradual.",
       date: "06-06-20",
-      views: "1"
+      views: "7"
   },
  {
     title: "Los Cambios que Vienen",
@@ -21,7 +29,7 @@ const PostList = [
     description: "Reconozco que el título original es demasiado sensacionalista y totalmente contrario al objetivo real de este artículo, el cual básicamente es teorizar sobre nuestro papel " +
     "como agentes económicos en los nuevos vientos de cambio que están surgiendo.",
     date: "29-02-20",
-    views: "13"
+    views: "16"
 },
 {
     title: "El Éxito de la Ejecución Asimétrica",
