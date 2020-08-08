@@ -27,7 +27,7 @@ const PostLast = [
      views: "6"
     },
     {
-    picture: "assets/bosque.jpg" ,
+    picture: "assets/bosquenevado2.jpg" ,
     title: "Los Cambios que Vienen",
     category: "Green Economy",
     contentPost: "Hace 5 años aproximadamente el fundador de Microsoft, Bill Gates, daba una charla sobre la próxima epidemia " +
@@ -63,6 +63,40 @@ const PostLast = [
     "de consumir solo aquello que sea necesario, sin renunciar a caprichos pero asumiendo contramedidas para ellos,  siendo más eficientes, quizás exista un mañana para este planeta. ",
     date: "03-05-20",
     views: "1"
+},
+{
+    picture: "assets/bosqueotoño.jpg",
+    title: "La Falacia del Desarrollo Sostenible",
+    category: "Green Economy",
+    contentPost: "Reconozco que el título original es demasiado sensacionalista y totalmente contrario al objetivo real de este artículo, el cual básicamente es teorizar sobre nuestro papel como agentes económicos en los nuevos vientos de cambio que están surgiendo. \n"+" \n"+""+
+            "Pero una falacia por definición es un argumento que parece válido, pero no lo es, a la vez que ​​ algunas falacias se cometen intencionalmente para persuadir o manipular a los demás, mientras que otras se cometen sin intención debido a descuidos o ignorancia. Por otro lado la palabra desarrollo significa crecimiento, y sostenible que se puede mantener en el tiempo. \n"+" \n"+""+
+            "Pero sin embargo, el crecimiento ilimitado en espacio finito es físicamente y matemáticamente imposible, porque la tierra es una y por ende tiene recursos limitados. \n"+" \n"+""+
+            "Entonces el Desarrollo Sostenible es un argumento válido o no lo es? \n"+" \n"+""+
+            "Por desgracia la concepción actual que tenemos de lo que es desarrollo sostenible parece ser más una manipulación para hacer pensar a las personas que se puede ser menos malo y por lo tanto que eso signifique ser bueno, haciéndonos creer que si soltamos un poco el acelerador, el final del precipicio no llegará jamás. \n"+" \n"+""+
+            "La verdad es que la neutralidad en emisiones CO2 es solo uno de los problemas, pero también son caminos al mismo precipicio; la extinción de la biodiversidad, el agotamiento y envenenamiento de los recursos, la sobreproducción de plástico… \n"+" \n"+""+
+            "Y es que si atendemos a los siguientes datos por mucho que algun@s nos ajustemos a un crecimiento 0 de emisiones CO2, nuestra cadencia de pedaleo de los últimos 50 años es tan constante (más concretamente 415 ppm, cuando en los últimos 3 millones de años nunca superamos los 300 ppm) que el precipicio sigue a menos de una vuelta de distancia. \n"+" \n"+"" +
+            "¿Entonces no hay otro destino que el precipicio? Por supuesto que no, y para convencernos de lo contrario nada mejor que persuadirnos de que cambiar es el único camino. El Desarrollo Sostenible es la interpolación de tres campos de trabajo: Medioambiental, Social y Económico \n"+" \n"+""+
+            "La sostenibilidad se basa en tres pilares desde la perspectiva del mantenimiento del capital (Herman Daly): \n"+" \n"+""+
+            "Rendimiento: La tasa de uso no debe exceder a la tasa de regeneración que necesitan los recursos. \n"+" \n"+""+
+            "Contaminación: El ritmo de contaminación ha de ser inferior al que la tierra son capaces de asimilar. \n"+" \n"+""+
+            "Agotamiento: El índice de agotamiento de los recursos no renovables no debe superar el tiempo de desarrollo de sustitutos comparables. \n"+" \n"+""+
+            "¿Acaso no nos suenan estos tres pilares? ¿No son los mismos en los que se basan los principios básicos de una buena salud financiera de empresas o particulares? Cambiar contaminación por endeudamiento o agotamiento por liquidez… \n"+" \n"+""+
+            "Somos los agentes económicos y sus responsables , los que tenemos la oportunidad de promover un cambio en la concepción de lo que la sociedad ha adoptado en los últimos años como modelos de consumo, ejerciendo e influyendo proactivamente en todos los actores dentro del círculo que existen entre las empresas y sus clientes finales. \n"+" \n"+""+
+            "Y es que las empresas no solo deben adoptar la sostenibilidad como bandera por necesidad sino que a su vez deben ejercer una fuerza pública y notoria para que haya un cambio de velocidad o aceleración (primera ley de Newton) en sus consumidores. Y a su vez los clientes particulares necesitan de estímulos que les convezca de que cada acción ejercida tendrá una reacción (tercera ley de Newton) en la relación con sus proveedores y empresas. \n"+" \n"+""+
+            "Esta es nuestra oportunidad, ejercer de agentes de cambio para que la sostenibilidad no solo no signifique menor crecimiento económico y social, sino que combinada correctamente con la transformación digital cambie la actual fórmula económica de: \n"+" \n"+""+
+            "RIQUEZA = —PRECIO x ++CANTIDAD \n"+" \n"+""+
+            "Porque tod@s somos conscientes de cómo el “abaratamiento” de nuestros recursos y servicios ha llevado a la sobre explotación de estos, y a su infravaloración. El “todo gratis” conlleva consigo la degradación del valor otorgado. \n"+" \n"+""+
+            "Pero la transición a la sostenibilidad es una oportunidad para tod@s los actores económicos, salvo quizás, para aquellos que promueven el «precios más baratos en millones de productos», para el resto es la oportunidad para poner en valor sus productos y servicios en manos de una sociedad más concienciada y con una necesidad cada vez mayor de que se les facilite el camino a tomar acciones. \n"+" \n"+""+
+            "+RIQUEZA = ++ PRECIO x -CANTIDAD \n"+" \n"+""+
+            "Y he aquí donde la mágica triada de la transformación digital, la transición ecológica y la inteligencia artificial nos debe habilitar a ser los socios con un status diferencial de empresas y particulares. \n"+" \n"+""+
+            "¿Que significa status diferencial? Pensar en Apple, Netflix o Tesla. \n"+" \n"+""+
+            "Cuando un cliente nos visita con una tablet de Apple, ¿le otorgamos un valor adicional a su propuesta? La respuesta cognitiva en este caso es que si, y es precisamente esa rápida asociación la que nuestras empresas y clientes querrán transmitir a través de sus acciones sostenibles. \n"+" \n"+""+
+            "En los últimos tiempos se habla mucho de la inclusión financiera, y sin duda es uno de los grandes objetivos del desarrollo sostenible pero no nos olvidemos del riesgo de exclusión financiera a la que estamos enfrentando a muchas empresas, autónomos, agricultores e incluso particulares. La transformación digital ha traído consigo una revolución permitiendo una excelencia operativa que no ha impactado de la misma manera a todas las escalas empresariales y sociales. Y la inteligencia artificial puede marcar enormes diferencias competitivas si son bien usadas pero todavía no está impregnando las capas medias y bajas del tejido empresarial y social. \n"+" \n"+""+
+            "Pero al igual que sobrevivimos a la primera ola de la transformación digital como alumnos aventajados y estamos surfeando en la segunda ola de la inteligencia artificial bien posicionados sobre ella, es la tercera ola, la de sostenibilidad, la que puede aprovecharse de la fuerza de las dos primeras trayendo consigo el necesario equilibrio para el planeta. \n"+" \n"+""+
+            "En este punto siempre me acuerdo de unas fotos de un canal en una ciudad de Holanda en diferentes épocas. En la primera, allá por los años 50, el canal está virgen solo rodeado por algunas casas. En la segunda, el canal había sufrido cambios y tenía dos carreteras a ambos lados. En la tercera, la carretera había cubierto el canal. Mientras en la última, la más reciente, se había vuelto prácticamente a la situación original pero con carriles bici y amplios paseos. \n"+" \n"+""+
+            "Moraleja: Por mucho que la transformación es contante y normalmente a demanda de la sociedad, siempre podemos ajustar nuestros hábitos para aprovechar las cosas que realmente funcionan y eliminar aquellas que no lo son. ",
+    date: "29-02-20",
+    views: "13"
 },
 {
     picture: "assets/bosque1.jpg",
@@ -101,40 +135,6 @@ const PostLast = [
                 "Bruce Lee",
     date: "8-07-19",
     views: "24"
-},
-{
-    picture: "assets/bosques2.jpg",
-    title: "La Falacia del Desarrollo Sostenible",
-    category: "Green Economy",
-    contentPost: "Reconozco que el título original es demasiado sensacionalista y totalmente contrario al objetivo real de este artículo, el cual básicamente es teorizar sobre nuestro papel como agentes económicos en los nuevos vientos de cambio que están surgiendo. \n"+" \n"+""+
-            "Pero una falacia por definición es un argumento que parece válido, pero no lo es, a la vez que ​​ algunas falacias se cometen intencionalmente para persuadir o manipular a los demás, mientras que otras se cometen sin intención debido a descuidos o ignorancia. Por otro lado la palabra desarrollo significa crecimiento, y sostenible que se puede mantener en el tiempo. \n"+" \n"+""+
-            "Pero sin embargo, el crecimiento ilimitado en espacio finito es físicamente y matemáticamente imposible, porque la tierra es una y por ende tiene recursos limitados. \n"+" \n"+""+
-            "Entonces el Desarrollo Sostenible es un argumento válido o no lo es? \n"+" \n"+""+
-            "Por desgracia la concepción actual que tenemos de lo que es desarrollo sostenible parece ser más una manipulación para hacer pensar a las personas que se puede ser menos malo y por lo tanto que eso signifique ser bueno, haciéndonos creer que si soltamos un poco el acelerador, el final del precipicio no llegará jamás. \n"+" \n"+""+
-            "La verdad es que la neutralidad en emisiones CO2 es solo uno de los problemas, pero también son caminos al mismo precipicio; la extinción de la biodiversidad, el agotamiento y envenenamiento de los recursos, la sobreproducción de plástico… \n"+" \n"+""+
-            "Y es que si atendemos a los siguientes datos por mucho que algun@s nos ajustemos a un crecimiento 0 de emisiones CO2, nuestra cadencia de pedaleo de los últimos 50 años es tan constante (más concretamente 415 ppm, cuando en los últimos 3 millones de años nunca superamos los 300 ppm) que el precipicio sigue a menos de una vuelta de distancia. \n"+" \n"+"" +
-            "¿Entonces no hay otro destino que el precipicio? Por supuesto que no, y para convencernos de lo contrario nada mejor que persuadirnos de que cambiar es el único camino. El Desarrollo Sostenible es la interpolación de tres campos de trabajo: Medioambiental, Social y Económico \n"+" \n"+""+
-            "La sostenibilidad se basa en tres pilares desde la perspectiva del mantenimiento del capital (Herman Daly): \n"+" \n"+""+
-            "Rendimiento: La tasa de uso no debe exceder a la tasa de regeneración que necesitan los recursos. \n"+" \n"+""+
-            "Contaminación: El ritmo de contaminación ha de ser inferior al que la tierra son capaces de asimilar. \n"+" \n"+""+
-            "Agotamiento: El índice de agotamiento de los recursos no renovables no debe superar el tiempo de desarrollo de sustitutos comparables. \n"+" \n"+""+
-            "¿Acaso no nos suenan estos tres pilares? ¿No son los mismos en los que se basan los principios básicos de una buena salud financiera de empresas o particulares? Cambiar contaminación por endeudamiento o agotamiento por liquidez… \n"+" \n"+""+
-            "Somos los agentes económicos y sus responsables , los que tenemos la oportunidad de promover un cambio en la concepción de lo que la sociedad ha adoptado en los últimos años como modelos de consumo, ejerciendo e influyendo proactivamente en todos los actores dentro del círculo que existen entre las empresas y sus clientes finales. \n"+" \n"+""+
-            "Y es que las empresas no solo deben adoptar la sostenibilidad como bandera por necesidad sino que a su vez deben ejercer una fuerza pública y notoria para que haya un cambio de velocidad o aceleración (primera ley de Newton) en sus consumidores. Y a su vez los clientes particulares necesitan de estímulos que les convezca de que cada acción ejercida tendrá una reacción (tercera ley de Newton) en la relación con sus proveedores y empresas. \n"+" \n"+""+
-            "Esta es nuestra oportunidad, ejercer de agentes de cambio para que la sostenibilidad no solo no signifique menor crecimiento económico y social, sino que combinada correctamente con la transformación digital cambie la actual fórmula económica de: \n"+" \n"+""+
-            "RIQUEZA = —PRECIO x ++CANTIDAD \n"+" \n"+""+
-            "Porque tod@s somos conscientes de cómo el “abaratamiento” de nuestros recursos y servicios ha llevado a la sobre explotación de estos, y a su infravaloración. El “todo gratis” conlleva consigo la degradación del valor otorgado. \n"+" \n"+""+
-            "Pero la transición a la sostenibilidad es una oportunidad para tod@s los actores económicos, salvo quizás, para aquellos que promueven el «precios más baratos en millones de productos», para el resto es la oportunidad para poner en valor sus productos y servicios en manos de una sociedad más concienciada y con una necesidad cada vez mayor de que se les facilite el camino a tomar acciones. \n"+" \n"+""+
-            "+RIQUEZA = ++ PRECIO x -CANTIDAD \n"+" \n"+""+
-            "Y he aquí donde la mágica triada de la transformación digital, la transición ecológica y la inteligencia artificial nos debe habilitar a ser los socios con un status diferencial de empresas y particulares. \n"+" \n"+""+
-            "¿Que significa status diferencial? Pensar en Apple, Netflix o Tesla. \n"+" \n"+""+
-            "Cuando un cliente nos visita con una tablet de Apple, ¿le otorgamos un valor adicional a su propuesta? La respuesta cognitiva en este caso es que si, y es precisamente esa rápida asociación la que nuestras empresas y clientes querrán transmitir a través de sus acciones sostenibles. \n"+" \n"+""+
-            "En los últimos tiempos se habla mucho de la inclusión financiera, y sin duda es uno de los grandes objetivos del desarrollo sostenible pero no nos olvidemos del riesgo de exclusión financiera a la que estamos enfrentando a muchas empresas, autónomos, agricultores e incluso particulares. La transformación digital ha traído consigo una revolución permitiendo una excelencia operativa que no ha impactado de la misma manera a todas las escalas empresariales y sociales. Y la inteligencia artificial puede marcar enormes diferencias competitivas si son bien usadas pero todavía no está impregnando las capas medias y bajas del tejido empresarial y social. \n"+" \n"+""+
-            "Pero al igual que sobrevivimos a la primera ola de la transformación digital como alumnos aventajados y estamos surfeando en la segunda ola de la inteligencia artificial bien posicionados sobre ella, es la tercera ola, la de sostenibilidad, la que puede aprovecharse de la fuerza de las dos primeras trayendo consigo el necesario equilibrio para el planeta. \n"+" \n"+""+
-            "En este punto siempre me acuerdo de unas fotos de un canal en una ciudad de Holanda en diferentes épocas. En la primera, allá por los años 50, el canal está virgen solo rodeado por algunas casas. En la segunda, el canal había sufrido cambios y tenía dos carreteras a ambos lados. En la tercera, la carretera había cubierto el canal. Mientras en la última, la más reciente, se había vuelto prácticamente a la situación original pero con carriles bici y amplios paseos. \n"+" \n"+""+
-            "Moraleja: Por mucho que la transformación es contante y normalmente a demanda de la sociedad, siempre podemos ajustar nuestros hábitos para aprovechar las cosas que realmente funcionan y eliminar aquellas que no lo son. ",
-    date: "29-02-20",
-    views: "13"
 }
 ]
 
