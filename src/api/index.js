@@ -9,6 +9,8 @@ export const getRequest = (uri, headers = {}) => {
     headers: {
       Accept: 'application/json',
       'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*' ,
+      'Access-Control-Allow-Headers': 'Content-Type',
       ...headers
     }
   });
@@ -23,6 +25,8 @@ export const postRequest = (uri, body, headers = {}) => {
     headers: {
       Accept: 'application/json',
       'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*' ,
+      'Access-Control-Allow-Headers': 'Content-Type',
       ...headers
     }
   });

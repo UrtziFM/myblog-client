@@ -24,7 +24,9 @@ export const reader = async body => {
     throw new Error(response);
   }
 
-  return response.redirect('/home')
+  //else { res.redirect('http://localhost:3000/home')
+  //return }
+  return response
 };
 
 /**
@@ -39,8 +41,7 @@ export const login = async body => {
 
   if (!res.ok) {
    throw new Error(response); 
-    
   }
 
-  return response.redirect('/home')
+  return response
 };

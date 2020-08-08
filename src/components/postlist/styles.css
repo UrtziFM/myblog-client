@@ -1,13 +1,14 @@
 @media (min-width: 768px) {
 .PostList-Home {
   margin-top: 0px;
+  height: 30vh;
 }
 .PostList-Title {
   font-family: 'Barlow', sans-serif;
   font-weight: bold;
-  font-size: 24px;
-  color: rgb(202, 202, 11);
-  margin: 5px;
+  font-size: 1.5rem;
+  color: black;
+  margin: 15px;
   text-align: center;
 
 }
@@ -15,33 +16,36 @@ ol {
   opacity: 0;
 }
 span.carousel-control-prev-icon{
-  background-color:rgb(48, 161, 48);
+  background-color: green;
   opacity: 0;
 }
 span.carousel-control-next-icon{
-  background-color: rgb(48, 161, 48);
+  background-color: green;
   opacity: 0;
 }
 }
 @media (max-width: 767px) {
+  .PostList-Home {
+    margin-top: 0px;
+    height: 30vh;
+  }
   .PostList-Title {
     font-family: 'Barlow', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
-    color: rgb(202, 202, 11);
-    margin: 5px;
+    font-size: 1.1rem;
+    color: black;
+    margin: 10px 0px 5px 0px;
     text-align: center;
-  
   }
   ol {
     opacity: 0;
   }
   span.carousel-control-prev-icon{
-    background-color:rgb(48, 161, 48);
+    background-color: green;
     opacity: 0;
   }
   span.carousel-control-next-icon{
-    background-color: rgb(48, 161, 48);
+    background-color: green;
     opacity: 0;
   }
   }
